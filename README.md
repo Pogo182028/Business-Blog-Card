@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="{https://your-demo-link.your-domain}">
+    <a href="https://devchallenge-business-blog-card.netlify.app">
       Demo
     </a>
     <span> | </span>
-    <a href="{https://your-url-to-the-solution}">
+    <a href="https://devchallenge-business-blog-card.netlify.app">
       Solution
     </a>
     <span> | </span>
@@ -37,26 +37,20 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![Overview](resources/Overview.jpeg)
 
 ### What I learned
 
-<!-- Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge. -->
-
-### Useful resources
-
-<!--
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
--->
+I learned well about the positions in css, I didn't have much complication.
 
 ### Built with
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - Semantic HTML5 markup
-- Flexbox
 - [Tailwind](https://tailwindcss.com/)
+- Grid
+- Flexbox
 
 ## Features
 
@@ -64,11 +58,7 @@
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges-dashboard) challenge.
 
-## Acknowledgements
-
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
-
 ## Author
 
-- Website [Business Blog Card](https://{your-web-site-link})
+- Website [Business Blog Card](https://devchallenge-business-blog-card.netlify.app)
 - GitHub [Pogo182028](https://github.com/Pogo182028)
