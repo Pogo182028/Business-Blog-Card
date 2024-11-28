@@ -22,10 +22,10 @@
 
     <title>Business Blog Card | devChallenges.io</title>
   </head>
-  <body class="bg-[#F2F5F9]">
-    <main class="bg-[#FFFFFF]">
+  <body class="bg-[#F2F5F9] grid place-items-center h-[100vh] max-sm:mx-auto max-sm:max-w-[80%]">
+    <main class="max-[550px]:w-[95%] w-[415px] bg-[#FFFFFF] rounded-2xl">
       <div
-        class="bg-[url(../resources/hero-image-1.jpg)] bg-no-repeat h-72 relative"
+        class="bg-[url(../resources/hero-image-1.jpg)] bg-no-repeat max-sm:bg-center h-[282px] relative rounded-t-2xl"
       >
         <img
           class="absolute bottom-0"
@@ -33,33 +33,32 @@
           alt="white-overlay"
         />
       </div>
-      <h1 class="font-Poppins font-semibold text-2xl text-[#111729]">Perfect solution for small business</h1>
-      <p class="font-Lato text-base text-[#4A5567]">
-        Small businesses need to generate leads to grow. You can use tools like
-        Ringy.
-      </p>
-      <section>
-        <img src="resources/avatar-image-business-card-1.png" alt="avatar-image-business-card">
-        <div>
-          <p class="font-Lato font-semibold text-base text-[#111729]">Amy Burgess</p>
-          <p class="font-Lato text-base text-[#4A5567]">Customer Manger, Solution Oy</p>
+      <section class="">
+        <h1 class="font-Poppins font-semibold text-2xl text-[#111729] mb-4 px-8 pt-8">
+          Perfect solution for small business
+        </h1>
+        <p class="font-Lato text-base text-[#4A5567] pb-4 px-8 sm:w-[95%] lg:w-[100%]">
+          Small businesses need to generate leads to grow. You can use tools
+          like Ringy.
+        </p>
+        <div class="border-b-2 border-gray-100"></div>
+        <div class="flex items-center gap-4 px-8 pt-4 pb-8">
+          <img
+            class="rounded-[50%] border-8 border-gray-100 max-sm:w-14 sm:w-14 max-sm:h-14 sm:h-14"
+            src="resources/avatar-image-business-card-1.png"
+            srcset="resources/avatar-image-business-card.png 640w, resources/avatar-image-business-card-1.png"
+            alt="avatar-image-business-card"
+          />
+          <div>
+            <p class="font-Poppins font-semibold text-base text-[#111729]">
+              Amy Burgess
+            </p>
+            <p class="font-Lato font-semibold text-base text-[#4A5567]">
+              Customer Manger, Solution Oy
+            </p>
+          </div>
         </div>
       </section>
     </main>
-    <div class="text-center">
-      Coded by
-      <a
-        class="text-blue-400 hover:underline"
-        href="https://github.com/Pogo182028"
-        >Dunston Madariaga</a
-      >
-      | Challenge by
-      <a
-        class="text-blue-400 hover:underline"
-        href="https://www.devchallenges.io?ref=challenge"
-        target="_blank"
-        >devChallenges.io</a
-      >.
-    </div>
   </body>
 </html>
