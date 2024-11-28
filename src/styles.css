@@ -610,6 +610,26 @@ video {
   flex-grow: 1;
 }
 
+.bg-\[\#F2F5F9\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(242 245 249 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#FFFFFF\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#111729\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 23 41 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#4A5567\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(74 85 103 / var(--tw-bg-opacity, 1));
+}
+
 .bg-\[url\(\.\.\/resources\/hero-image-1\.jpg\)\] {
   background-image: url(../resources/hero-image-1.jpg);
 }
@@ -622,9 +642,45 @@ video {
   text-align: center;
 }
 
+.font-Poppins {
+  font-family: Poppins, sans-serif;
+}
+
+.font-Lato {
+  font-family: Lato, sans-serif;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
 .text-blue-400 {
   --tw-text-opacity: 1;
   color: rgb(96 165 250 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#111729\] {
+  --tw-text-opacity: 1;
+  color: rgb(17 23 41 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#4A5567\] {
+  --tw-text-opacity: 1;
+  color: rgb(74 85 103 / var(--tw-text-opacity, 1));
 }
 
 .hover\:underline:hover {
