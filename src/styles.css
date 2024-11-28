@@ -554,6 +554,70 @@ video {
   display: none;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.h-52 {
+  height: 13rem;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.h-64 {
+  height: 16rem;
+}
+
+.h-\[418px\] {
+  height: 418px;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
+.h-72 {
+  height: 18rem;
+}
+
+.w-52 {
+  width: 13rem;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-\[100\%\] {
+  width: 100%;
+}
+
+.w-\[280px\] {
+  width: 280px;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.bg-\[url\(\.\.\/resources\/hero-image-1\.jpg\)\] {
+  background-image: url(../resources/hero-image-1.jpg);
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
 .text-center {
   text-align: center;
 }
@@ -565,12 +629,4 @@ video {
 
 .hover\:underline:hover {
   text-decoration-line: underline;
-}
-
-.hover\:delay-100:hover {
-  transition-delay: 100ms;
-}
-
-.hover\:ease-in-out:hover {
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
